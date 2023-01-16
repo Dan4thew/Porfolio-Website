@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #00000;
+  /* background color */
+  color: white;
+  /* text color */
+  /* add padding */
+}
+
+/* Navbar styles */
+nav {
+  background-color: #000000;
+  /* background color */
+  color: white;
+  /* text color */
+}
+
+nav a {
+  color: white;
+  /* text color */
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+/* Logo styles */
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Menu item styles */
+.menu-item {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Active menu item styles */
+.active {
+  font-weight: bold;
+  color: white;
+}
+
+.about-me {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  margin-top : 5rem;
+}
+
+.about-me p {
+    margin-top : 2rem;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+
+}
+
+footer {
+  background-color: #343a40;
+  /* background color */
+  color: white;
+  /* text color */
+  padding: 20px 0;
+  /* add padding */
+  text-align: center;
+
+}
+
+footer a {
+  color: white;
+  /* text color */
+}
+
+footer a:hover {
+  color: grey;
+}
+
+.social-links {
+  margin-right: 20px;
+}

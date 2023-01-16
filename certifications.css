@@ -1,0 +1,115 @@
+/* Body and global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #00000; /* background color */
+    color: white; /* text color */
+   /* add padding */
+}
+
+
+/* Navbar styles */
+nav {
+    background-color: #000000; /* background color */
+    color: white; /* text color */
+}
+
+nav a {
+    color: white; /* text color */
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+/* Logo styles */
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Menu item styles */
+.menu-item {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Active menu item styles */
+.active {
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.my-certifications {
+  margin-bottom: 30px;
+  text-align: left;
+  padding: 50px 0;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  margin-top : 2rem; /* add 50px of margin to the top */
+}
+
+
+/* Card styles */
+.card {
+    margin-bottom: 30px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+button, .btn {
+    background-color: black; /* black background color */
+    color: white; /* text color */
+    border: none; /* remove border */
+    padding: 10px 20px; /* adjust padding */
+    border-radius: 20px; /* add rounded corners */
+    font-size: 16px; /* adjust font size */
+    transition: all 0.3s; /* add transition effect */
+    text-align: center;
+}
+
+/* Change button color on hover */
+button:hover, .btn:hover {
+    background-color: gray; /* change background color on hover */
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #343a40; /* background color */
+    color: white; /* text color */
+    padding: 20px 0; /* add padding */
+    text-align: center;
+}
+
+footer a {
+    color: white; /* text color */
+}
+
+footer a:hover {
+    color: grey;
+}
+
+.social-links{
+    margin-right: 20px;
+}
+/* Social media icon styles */
