@@ -5,14 +5,17 @@ const messageInput = document.querySelector('#message');
 const errorMessage = document.querySelector('.error-message');
 
 form.addEventListener('submit', event => {
-  event.preventDefault();
-
+  
   // Check if name, email, and message fields are filled out
-   if (nameInput.value === '' || emailInput.value === '' || messageInput.value === '') {
+  form.addEventListener('submit', event => {
+  // Check if name, email, and message fields are filled out
+  if (nameInput.value === '' || emailInput.value === '' || messageInput.value === '') {
     errorMessage.textContent = 'Please fill out all fields.';
     event.preventDefault();
     return;
   }
+  ...
+
 
   // Check if the email address is valid
   if (!isValidEmail(emailInput.value)) {
