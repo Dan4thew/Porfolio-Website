@@ -8,8 +8,9 @@ form.addEventListener('submit', event => {
   event.preventDefault();
 
   // Check if name, email, and message fields are filled out
-  if (nameInput.value === '' || emailInput.value === '' || messageInput.value === '') {
+   if (nameInput.value === '' || emailInput.value === '' || messageInput.value === '') {
     errorMessage.textContent = 'Please fill out all fields.';
+    event.preventDefault();
     return;
   }
 
